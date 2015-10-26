@@ -1,0 +1,110 @@
+/*
+
+
+
+ * jQuery Nivo Slider v3.1
+
+
+
+ * http://nivo.dev7studios.com
+
+
+
+ *
+
+
+
+ * Copyright 2012, Dev7studios
+
+
+
+ * Free to use and abuse under the MIT license.
+
+
+
+ * http://www.opensource.org/licenses/mit-license.php
+
+
+
+ */
+
+
+
+ 
+
+
+
+/* The Nivo Slider styles */
+
+
+
+.wrapSlide{width:100%; overflow:hidden;text-align:center; margin:10px 0 0px 0; float:left; position:relative}
+
+.nivoSlider {position:relative;	width:1204px;  /*height:389px;*/  margin:auto; overflow:hidden;}
+
+
+
+.nivoSlider img {position:absolute;top:0px;left:0px;max-width: none; z-index:0  }
+
+
+
+.nivo-main-image {display: block !important;position: relative !important; width:100% !important;}
+
+
+
+/* The slices and boxes in the Slider */
+
+
+
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;	top:0;}
+
+
+
+.nivo-box {	display:block;position:absolute;z-index:5;overflow:hidden;}
+
+
+
+.nivo-box img { display:block; }
+
+
+
+
+
+
+
+/* Direction nav styles (e.g. Next & Prev) */
+
+
+
+/*.nivo-directionNav .nivo-btn-next, .nivo-directionNav .nivo-btn-pre {position:absolute;top:43%;z-index:9;cursor:pointer;width:55px; height:71px}
+
+.nivo-btn-pre {left:28px; background:url(../images/btn-pre.png) center no-repeat; overflow:hidden; z-index:999; height:68px !important}
+
+*/
+
+/*.nivo-btn-pre:hover {background:url(../images/btn-pre-hover.png)  center no-repeat}
+
+
+
+.nivo-btn-next:hover {background:url(../images/btn-next-hover.png)  center no-repeat}*/
+
+
+
+
+
+
+
+/*.nivo-btn-next {right:28px;background:url(../images/btn-next.png) center no-repeat; overflow:hidden; z-index:999;}
+*/
+/* Control nav styles (e.g. 1,2,3...) */
+
+
+
+
+.nivo-controlNav {width:200px; height:30px; text-align:center; position:relative; z-index:99999 !important;  margin:-60px auto auto auto;}
+.nivo-controlNav a {
+	cursor:pointer; font-size:0; background:url(../images/navi-slide.png) center no-repeat;width:12px; height:12px; margin:0 5px 0 5px; display:inline-block; 
+}
+.nivo-controlNav a.active {
+	background:url(../images/navi-slide-active.png) center no-repeat;
+}
